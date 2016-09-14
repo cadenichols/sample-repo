@@ -20,8 +20,6 @@ function addButtonClicked() {
 
   var $li = $('<li>');
 
-  // $li.on('click', clickLi)
-
   $li.text(name).css('color', color);
 
   var $list = $('#list');
